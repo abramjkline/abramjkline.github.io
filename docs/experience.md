@@ -11,12 +11,14 @@
 
 Founded and built [GND Lift](coding/gnd-lift.md), a social platform for musicians to build profiles, showcase bands and discographies, and find collaborators for performing, recording, writing, and session work.
 
-- Own the product end-to-end: concept, UX, architecture, development, deployment, and launch
-- Built the React front end and a Supabase back end (Postgres, auth, and API) covering profiles, bands, discography and credits, search and matching, and networking
-- Designed musician discovery with filters for instrument, genre, location, distance, and collaboration needs
-- Deploy and operate the app on Vercel
+- Own the product end-to-end: concept, UX, architecture, development, testing, deployment, and launch
+- Built a Next.js / React / TypeScript front end on a Supabase back end (Postgres with row-level security, auth, and storage), designed around profiles, bands, discography and credits, shows, and networking
+- Designed musician and band discovery with filters for instrument, genre, experience, availability, and location radius
+- Shipped real-time messaging, connections and endorsements, booking inquiries, and transactional email notifications
+- Added trust-and-safety features (blocking, content reporting, rate limiting) and an admin panel
+- Maintain a quality pipeline of unit tests, cross-browser end-to-end tests (including mobile), and automated accessibility scans in CI; deploy and operate on Vercel
 
-**Skills:** Product Development · React · Supabase · PostgreSQL · Authentication · REST APIs · Vercel · UX Design
+**Skills:** Product Development · Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS · Playwright · Accessibility (WCAG) · Vercel · UX Design
 
 </div>
 </details>
