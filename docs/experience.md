@@ -2,6 +2,25 @@
 
 # Experience
 
+## GND Lift
+*Founder · [gndlift.com](https://gndlift.com/)*
+
+<details class="role-details" markdown>
+<summary><span class="role-title">Founder &amp; Full-Stack Developer</span><span class="role-dates">2026 – Present · Remote</span></summary>
+<div class="role-content" markdown>
+
+Founded and built [GND Lift](coding/gnd-lift.md), a social platform for musicians to build profiles, showcase bands and discographies, and find collaborators for performing, recording, writing, and session work.
+
+- Own the product end-to-end: concept, UX, architecture, development, deployment, and launch
+- Built the React front end and a Supabase back end (Postgres, auth, and API) covering profiles, bands, discography and credits, search and matching, and networking
+- Designed musician discovery with filters for instrument, genre, location, distance, and collaboration needs
+- Deploy and operate the app on Vercel
+
+**Skills:** Product Development · React · Supabase · PostgreSQL · Authentication · REST APIs · Vercel · UX Design
+
+</div>
+</details>
+
 ## SAS
 *Raleigh/Cary, NC · 7+ years*
 
