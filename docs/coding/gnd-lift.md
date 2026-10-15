@@ -31,7 +31,7 @@ GND Lift is a social platform for musicians — a place to build a profile, show
 - **Shows** — upcoming and past show listings with per-show member credits; band admins can connect Bandsintown to sync events in automatically
 
 ![Profile discography](../assets/gnd-lift-profile-discography.png)
-*Discography — releases across bands and solo work, with membership badges, credits, and streaming links.*
+*Discography — releases across bands and solo work, with cover art, membership badges, credits, and streaming links.*
 
 ![Band booking, review link, and shows](../assets/gnd-lift-band-booking.png)
 *Band admin tools — booking toggle, a shareable review link, and upcoming shows synced from Bandsintown.*
@@ -39,13 +39,17 @@ GND Lift is a social platform for musicians — a place to build a profile, show
 **Discovery & networking**
 
 - **Search** — filter musicians by instrument, genre, experience, availability, and location radius (haversine distance); band search by the roles they need
+- **Venues & shops directory** — browse venues, music shops, and record stores by type and distance, save favorites, open any listing in Google or Apple Maps, and suggest new additions for admin review
 - **Connections** — connection requests, a mutual network, and a connections-only search filter
 - **Endorsements** — request and give skill endorsements with connected musicians
 - **Messaging** — real-time one-on-one conversations with unread indicators
 - **Booking inquiries** — an optional "Contact for Booking" flow with a per-user inbox, plus a shareable review link for outside work
 
-![GND Lift musician search](../assets/gnd-lift-search.png)
-*Find Musicians — filter by instrument, genre, location, and collaboration needs.*
+![Find Musicians](../assets/gnd-lift-find-musicians.png)
+*Find Musicians — 37 musicians and growing, filterable by location and distance, instrument, genre, availability, and collaboration needs.*
+
+![Find Venues & Shops](../assets/gnd-lift-venues.png)
+*Find Venues & Shops — a directory of 24 local venues, music shops, and record stores, with favorites and one-tap map links.*
 
 **Platform**
 
