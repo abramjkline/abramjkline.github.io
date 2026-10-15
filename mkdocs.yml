@@ -1,13 +1,13 @@
 # Project information
 site_name: The MondoRepo
-site_url: https://abramjkline.github.io/mondomonorepo
+site_url: https://abramjkline.github.io
 site_author: Abe Kline
 site_description: >-
   Personal portfolio of Abe Kline — full-stack software developer and musician based in Raleigh, NC.
 
 # Repository
-repo_name: abramjkline/mondomonorepo
-repo_url: https://github.com/abramjkline/mondomonorepo
+repo_name: abramjkline/abramjkline.github.io
+repo_url: https://github.com/abramjkline/abramjkline.github.io
 
 # Copyright
 copyright: Copyright &copy; 2025 Abe Kline
@@ -147,6 +147,7 @@ nav:
   - Code:
     - Overview: coding/index.md
     - Projects:
+      - GND Lift: coding/gnd-lift.md
       - Mat Madness: coding/mat-madness.md
       - COVID-19 Reporter: coding/covid-19.md
       - New Sweat Website: coding/new-sweat.md

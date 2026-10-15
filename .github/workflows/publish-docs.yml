@@ -1,4 +1,4 @@
-name: 'Publish Docs for Mondo Repo'
+name: 'Publish Docs'
 on: 
   push: 
     branches:
