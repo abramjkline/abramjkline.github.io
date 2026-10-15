@@ -1,6 +1,6 @@
 # Using Material for MkDocs with GitHub Pages
 
-This page includes step-by-step instructions as well as helpful tips for utilizing Material for MkDocs to serve your GitHub documentation (it is what the Mondomonorepo is running on right now).
+This page includes step-by-step instructions as well as helpful tips for utilizing Material for MkDocs to serve your GitHub documentation (it is what this site is running on right now).
 
 ## Getting Started
 
