@@ -10,6 +10,22 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account:{ .lg .middle } **About**
+
+    ---
+
+    Who I am, what I do, and where I've been.
+
+    [:octicons-arrow-right-24: Learn more](about.md)
+
+-   :material-briefcase:{ .lg .middle } **Experience**
+
+    ---
+
+    15+ years across data science, quantitative research, and full-stack software engineering.
+
+    [:octicons-arrow-right-24: View career](experience.md)
+
 -   :material-code-braces:{ .lg .middle } **Code**
 
     ---
@@ -25,21 +41,5 @@
     Original songwriting, recordings, and lyrics from solo work and the band New Sweat.
 
     [:octicons-arrow-right-24: Explore music](songwriting/index.md)
-
--   :material-briefcase:{ .lg .middle } **Experience**
-
-    ---
-
-    15+ years across data science, quantitative research, and full-stack software engineering.
-
-    [:octicons-arrow-right-24: View career](experience.md)
-
--   :material-account:{ .lg .middle } **About**
-
-    ---
-
-    Who I am, what I do, and where I've been.
-
-    [:octicons-arrow-right-24: Learn more](about.md)
 
 </div>
