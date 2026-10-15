@@ -7,7 +7,7 @@ Abe Kline is a software developer and musician based in Raleigh, North Carolina.
 
 Outside of work, Abe writes and records original music as a solo artist and as a member of the band [New Sweat](https://www.newsweat.com). His songwriting tends toward the personal and observational.
 
-The MondoRepo is his attempt to document both sides of that life in one place.
+This site is his attempt to document both sides of that life in one place.
 
 ---
 

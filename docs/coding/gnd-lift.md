@@ -7,14 +7,14 @@ GND Lift is a social platform for musicians — a place to build a profile, show
 ![GND Lift landing page](../assets/gnd-lift-home.png)
 *Landing page — the pitch: find your people, make music.*
 
+![GND Lift dashboard](../assets/gnd-lift-dashboard.png)
+*Dashboard — discovery clicks, profile views, connections, and endorsements at a glance, with quick links to messages, network, and booking.*
+
 ![GND Lift musician profile](../assets/gnd-lift-profile.png)
-*Musician profile — bio, availability, and linked bands.*
+*Musician profile — availability, bio, and linked bands.*
 
 ![GND Lift band page](../assets/gnd-lift-band.png)
-*Band page — members, roles, and discography, shown here for New Sweat.*
-
-![GND Lift musician search](../assets/gnd-lift-search.png)
-*Find Musicians — filter by instrument, genre, location, and collaboration needs.*
+*Band page — roster and roles, shown here for New Sweat.*
 
 ## Features
 
@@ -30,6 +30,12 @@ GND Lift is a social platform for musicians — a place to build a profile, show
 - **Discography & credits** — albums and singles with streaming links and per-track credits (member, session, featured), including an invitation flow so collaborators can confirm their credit
 - **Shows** — upcoming and past show listings with per-show member credits; band admins can connect Bandsintown to sync events in automatically
 
+![Profile discography](../assets/gnd-lift-profile-discography.png)
+*Discography — releases across bands and solo work, with membership badges, credits, and streaming links.*
+
+![Band booking, review link, and shows](../assets/gnd-lift-band-booking.png)
+*Band admin tools — booking toggle, a shareable review link, and upcoming shows synced from Bandsintown.*
+
 **Discovery & networking**
 
 - **Search** — filter musicians by instrument, genre, experience, availability, and location radius (haversine distance); band search by the roles they need
@@ -38,7 +44,13 @@ GND Lift is a social platform for musicians — a place to build a profile, show
 - **Messaging** — real-time one-on-one conversations with unread indicators
 - **Booking inquiries** — an optional "Contact for Booking" flow with a per-user inbox, plus a shareable review link for outside work
 
+![GND Lift musician search](../assets/gnd-lift-search.png)
+*Find Musicians — filter by instrument, genre, location, and collaboration needs.*
+
 **Platform**
+
+![Invite and share tools](../assets/gnd-lift-invite.png)
+*Growth tools — a personal invite link with reach and join counts, a QR-code share page, and per-band views and clicks.*
 
 - **Notifications** — in-app and transactional email (welcome, connection and endorsement activity, messages, booking, credit invitations, and a daily summary), with per-user preferences
 - **Trust & safety** — blocking and content reporting, plus rate limiting on sensitive endpoints
