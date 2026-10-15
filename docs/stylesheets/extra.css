@@ -37,13 +37,26 @@
    HOME PAGE HERO — blurred portrait behind the title
    ------------------------------------------------------------- */
 
+/* Let the hero sit flush under the header (cancel Material's top spacing) */
+.md-main__inner:has(.home-hero) {
+  margin-top: 0;
+}
+
+.md-content__inner:has(.home-hero) {
+  padding-top: 0;
+}
+
+.md-content__inner:has(.home-hero)::before {
+  display: none;
+}
+
 .home-hero {
   position: relative;
   isolation: isolate;
   overflow: hidden;
   text-align: center;
   padding: 5.5rem 1rem 4.5rem;
-  margin: -1.5rem -1.6rem 0;
+  margin: 0 -1.6rem;
 }
 
 /* Blurred photo layer (inset so the blur doesn't fade at the edges) */
