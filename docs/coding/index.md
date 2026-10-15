@@ -8,7 +8,7 @@ This section covers personal projects and guides from across that journey.
 
 <div class="grid cards" markdown>
 
--   :material-account-music:{ .lg .middle } **GND Lift**
+-   :gndlift-logo:{ .lg .middle } **GND Lift**
 
     ---
 
@@ -28,7 +28,7 @@ This section covers personal projects and guides from across that journey.
 
     ---
 
-    Band website for New Sweat — rock and roll from Raleigh/Durham, NC. Built and maintained as a side project.
+    Band website for New Sweat — indie, folk, and roots rock from Raleigh/Durham, NC. Built and maintained as a side project.
 
     [:octicons-arrow-right-24: View project](new-sweat.md)
 

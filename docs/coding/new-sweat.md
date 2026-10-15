@@ -1,6 +1,6 @@
 # New Sweat Website
 
-New Sweat is a roots rock band based out of Raleigh and Durham, NC. This is the band's public-facing website — built and maintained as a personal side project alongside the music itself. Visit [newsweat.com](https://www.newsweat.com).
+New Sweat is an indie, folk, and roots-rock band based out of Raleigh and Durham, NC. This is the band's public-facing website — built and maintained as a personal side project alongside the music itself. Visit [newsweat.com](https://www.newsweat.com).
 
 ## Tech Stack
 
