@@ -34,40 +34,65 @@
 }
 
 /* -------------------------------------------------------------
-   HOME PAGE HERO
+   HOME PAGE HERO — blurred portrait behind the title
    ------------------------------------------------------------- */
 
 .home-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   text-align: center;
-  padding: 3rem 1rem 2rem;
-  margin: -0.8rem -1.6rem 0;
+  padding: 5.5rem 1rem 4.5rem;
+  margin: -1.5rem -1.6rem 0;
+}
+
+/* Blurred photo layer (inset so the blur doesn't fade at the edges) */
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: -24px;
+  z-index: -2;
+  background: url("../assets/hero.jpg") center 38% / cover no-repeat;
+  filter: blur(4px);
+}
+
+/* Darkening overlay that fades into the page background */
+.home-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: linear-gradient(
     180deg,
-    rgba(255, 87, 34, 0.06) 0%,
-    transparent 100%
+    rgba(12, 12, 18, 0.34) 0%,
+    rgba(12, 12, 18, 0.46) 55%,
+    var(--md-default-bg-color) 100%
   );
 }
 
 .home-hero h1 {
   font-size: 3.2rem !important;
   font-weight: 800 !important;
-  background: linear-gradient(135deg, #ff5722 0%, #ff9800 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff !important;
   letter-spacing: -0.025em;
   margin-bottom: 0.6rem !important;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
 }
 
 .home-tagline {
   display: block;
   font-size: 1.15rem;
-  color: var(--md-default-fg-color--light);
+  color: rgba(255, 255, 255, 0.88);
   font-weight: 400;
   margin-bottom: 1.5rem;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
 }
 
 @media (max-width: 640px) {
+  .home-hero {
+    padding: 4rem 1rem 3.5rem;
+  }
+
   .home-hero h1 {
     font-size: 2.2rem !important;
   }
@@ -293,5 +318,65 @@
   .home-hero {
     margin-left: -0.8rem;
     margin-right: -0.8rem;
+  }
+}
+
+/* -------------------------------------------------------------
+   LINK PILLS — icon + label links (music pages)
+   ------------------------------------------------------------- */
+
+.link-pills {
+  margin: 0.6rem 0 1.6rem;
+}
+
+.link-pills p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.md-typeset .link-pills a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.95rem;
+  border: 1px solid rgba(255, 87, 34, 0.35);
+  background: rgba(255, 87, 34, 0.08);
+  border-radius: 2rem;
+  color: var(--md-default-fg-color);
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.md-typeset .link-pills a:hover {
+  background: rgba(255, 87, 34, 0.18);
+  border-color: rgba(255, 87, 34, 0.6);
+  transform: translateY(-1px);
+}
+
+.link-pills .twemoji {
+  display: inline-flex;
+}
+
+.link-pills .twemoji svg {
+  width: 1.15em;
+  height: 1.15em;
+  fill: var(--md-primary-bg-color, #ff5722);
+}
+
+/* -------------------------------------------------------------
+   MOBILE — header: drop the (truncated) site title on phones
+   ------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .md-header__title {
+    display: none;
+  }
+
+  .md-header__inner {
+    justify-content: space-between;
   }
 }

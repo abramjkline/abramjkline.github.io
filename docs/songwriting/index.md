@@ -4,9 +4,22 @@ I've been writing songs for most of my life. Some have found their way onto reco
 
 ## Projects
 
-**[New Sweat](https://www.newsweat.com)** is my band. We play rock and roll out of the Raleigh/Durham area.
+**New Sweat** is my band. We play rock and roll out of the Raleigh/Durham area.
 
-My **solo work** spans a wider range — folk, rock, Americana — and is available on [Bandcamp](https://abekline.bandcamp.com/) and [Reverbnation](https://www.reverbnation.com/abekline).
+<div class="link-pills" markdown>
+[:material-web: Website](https://www.newsweat.com)
+[:material-account-music: GND Lift](https://gndlift.com/band/new-sweat)
+[:fontawesome-brands-instagram: Instagram](http://instagram.com/newsweat)
+[:fontawesome-brands-spotify: Spotify](https://open.spotify.com/intl-id/artist/0zdOt1kW91Z0UcF59G5aTB)
+[:simple-applemusic: Apple Music](https://music.apple.com/us/artist/new-sweat/597131772)
+</div>
+
+My **solo work** spans a wider range — folk, rock, Americana.
+
+<div class="link-pills" markdown>
+[:simple-bandcamp: Bandcamp](https://abekline.bandcamp.com/)
+[:simple-reverbnation: Reverbnation](https://www.reverbnation.com/abekline)
+</div>
 
 Head to [Releases & Links](recordings.md) for the full list of streaming and social links.
 

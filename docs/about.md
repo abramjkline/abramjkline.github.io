@@ -1,5 +1,5 @@
 <div class="portfolio-hero">
-  <img src="../assets/A25A8805.jpg" class="portfolio-hero__photo" alt="Abe Kline">
+  <img src="../assets/hero.jpg" class="portfolio-hero__photo" alt="Abe Kline">
   <p class="portfolio-hero__tagline">Full-Stack Engineer &nbsp;·&nbsp; Musician &nbsp;·&nbsp; Raleigh, NC</p>
 </div>
 

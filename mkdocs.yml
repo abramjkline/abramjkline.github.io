@@ -149,8 +149,8 @@ nav:
     - Projects:
       - GND Lift: coding/gnd-lift.md
       - Mat Madness: coding/mat-madness.md
-      - COVID-19 Reporter: coding/covid-19.md
       - New Sweat Website: coding/new-sweat.md
+      - COVID-19 Reporter: coding/covid-19.md
     - Guides:
       - GitHub Pages: coding/github-pages.md
       - Oracle CPQ UI Tips: coding/oracle-cpq-css.md

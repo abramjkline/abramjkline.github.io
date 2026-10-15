@@ -24,14 +24,6 @@ This section covers personal projects and guides from across that journey.
 
     [:octicons-arrow-right-24: View project](mat-madness.md)
 
--   :material-virus:{ .lg .middle } **COVID-19 Reporter**
-
-    ---
-
-    Custom SAS program for generating localized COVID-19 case reports with configurable geographic targeting.
-
-    [:octicons-arrow-right-24: View project](covid-19.md)
-
 -   :material-guitar-electric:{ .lg .middle } **New Sweat Website**
 
     ---
@@ -39,6 +31,14 @@ This section covers personal projects and guides from across that journey.
     Band website for New Sweat — rock and roll from Raleigh/Durham, NC. Built and maintained as a side project.
 
     [:octicons-arrow-right-24: View project](new-sweat.md)
+
+-   :material-virus:{ .lg .middle } **COVID-19 Reporter**
+
+    ---
+
+    Custom SAS program for generating localized COVID-19 case reports with configurable geographic targeting.
+
+    [:octicons-arrow-right-24: View project](covid-19.md)
 
 </div>
 
