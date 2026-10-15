@@ -278,6 +278,20 @@
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
+/* Center card icons against their titles regardless of font metrics */
+.md-typeset .grid.cards > :is(ul, ol) > li > p:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li > p:first-child .twemoji {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  vertical-align: baseline;
+}
+
 .md-typeset .grid.cards > :is(ul, ol) > li:hover {
   transform: translateY(-4px);
   box-shadow:
