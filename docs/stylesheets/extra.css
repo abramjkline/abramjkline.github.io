@@ -376,7 +376,8 @@
     display: none;
   }
 
-  .md-header__inner {
-    justify-content: space-between;
+  /* keep theme toggle + search together on the right */
+  .md-header__option:first-of-type {
+    margin-left: auto;
   }
 }

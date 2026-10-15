@@ -6,7 +6,7 @@ site_description: >-
   Personal portfolio of Abe Kline — full-stack software developer and musician based in Raleigh, NC.
 
 # Repository
-repo_name: abramjkline/abramjkline.github.io
+repo_name: abramjkline.github.io
 repo_url: https://github.com/abramjkline/abramjkline.github.io
 
 # Copyright
@@ -15,6 +15,7 @@ copyright: Copyright &copy; 2026 Abe Kline
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: slate
       primary: deep orange
@@ -129,6 +130,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
