@@ -12,7 +12,7 @@ This section covers personal projects and guides from across that journey.
 
     ---
 
-    Social platform for musicians to build profiles, showcase bands, and find collaborators — built with React and Supabase.
+    Social platform for musicians to build profiles, showcase bands, and find collaborators — built with Next.js and Supabase.
 
     [:octicons-arrow-right-24: View project](gnd-lift.md)
 
